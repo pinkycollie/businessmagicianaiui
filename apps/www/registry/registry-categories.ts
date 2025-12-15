@@ -59,4 +59,29 @@ export const registryCategories = [
     slug: "charts-tooltip",
     hidden: true,
   },
+  {
+    name: "Startup",
+    slug: "startup",
+    hidden: false,
+  },
+  {
+    name: "Small Business",
+    slug: "small-business",
+    hidden: false,
+  },
+  {
+    name: "Corporation",
+    slug: "corporation",
+    hidden: false,
+  },
+  {
+    name: "Non-Profit",
+    slug: "non-profit",
+    hidden: false,
+  },
+  {
+    name: "Self-Employment",
+    slug: "self-employment",
+    hidden: false,
+  },
 ]
