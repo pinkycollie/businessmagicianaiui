@@ -103,6 +103,12 @@ export const docsConfig: DocsConfig = {
           label: "New",
         },
         {
+          title: "Business Templates",
+          href: "/docs/business-templates",
+          items: [],
+          label: "New",
+        },
+        {
           title: "Figma",
           href: "/docs/figma",
           items: [],
