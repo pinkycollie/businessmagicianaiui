@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Store, Package, ShoppingCart, FileText } from "lucide-react"
+import { Store } from "lucide-react"
 
 import {
   Sidebar,

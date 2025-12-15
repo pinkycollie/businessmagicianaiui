@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Heart, Users, Calendar, FileText } from "lucide-react"
+import { Heart } from "lucide-react"
 
 import {
   Sidebar,

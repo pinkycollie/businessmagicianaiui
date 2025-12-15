@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Building2, Users, Briefcase, FileText } from "lucide-react"
+import { Building2 } from "lucide-react"
 
 import {
   Sidebar,

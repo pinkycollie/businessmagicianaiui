@@ -1,5 +1,5 @@
 import * as React from "react"
-import { BarChart3, TrendingUp, Users, DollarSign } from "lucide-react"
+import { BarChart3 } from "lucide-react"
 
 import {
   Sidebar,

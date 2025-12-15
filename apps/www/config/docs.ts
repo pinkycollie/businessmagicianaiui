@@ -38,7 +38,7 @@ export const docsConfig: DocsConfig = {
     },
     {
       title: "Business Templates",
-      href: "/blocks?category=business",
+      href: "/docs/business-templates",
     },
   ],
   sidebarNav: [

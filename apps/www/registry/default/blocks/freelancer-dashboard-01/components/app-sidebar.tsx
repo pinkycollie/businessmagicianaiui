@@ -1,5 +1,5 @@
 import * as React from "react"
-import { User, Clock, DollarSign, FileText } from "lucide-react"
+import { User } from "lucide-react"
 
 import {
   Sidebar,
