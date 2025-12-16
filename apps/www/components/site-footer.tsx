@@ -6,7 +6,7 @@ export function SiteFooter() {
       <div className="container-wrapper">
         <div className="container py-4">
           <div className="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
-            Built by{" "}
+            Originally built by{" "}
             <a
               href={siteConfig.links.twitter}
               target="_blank"
@@ -15,7 +15,7 @@ export function SiteFooter() {
             >
               shadcn
             </a>
-            . The source code is available on{" "}
+            . Forked and customized with accessibility enhancements. The source code is available on{" "}
             <a
               href={siteConfig.links.github}
               target="_blank"
@@ -23,6 +23,15 @@ export function SiteFooter() {
               className="font-medium underline underline-offset-4"
             >
               GitHub
+            </a>
+            {" | "}
+            <a
+              href={siteConfig.links.originalProject}
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium underline underline-offset-4"
+            >
+              Original Project
             </a>
             .
           </div>
