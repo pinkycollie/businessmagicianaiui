@@ -1,13 +1,23 @@
 {
-  "name": "ui",
+  "name": "businessmagicianaiui",
   "version": "0.0.1",
   "private": true,
   "license": "MIT",
   "type": "module",
-  "author": {
-    "name": "shadcn",
-    "url": "https://twitter.com/shadcn"
+  "description": "Business Magician AI UI - A customized fork of shadcn/ui with enhanced accessibility features",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinkycollie/businessmagicianaiui.git"
   },
+  "author": {
+    "name": "pinkycollie"
+  },
+  "contributors": [
+    {
+      "name": "shadcn",
+      "url": "https://twitter.com/shadcn"
+    }
+  ],
   "workspaces": [
     "apps/*",
     "packages/*"
