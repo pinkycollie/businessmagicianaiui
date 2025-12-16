@@ -36,6 +36,10 @@ export const docsConfig: DocsConfig = {
       title: "Colors",
       href: "/colors",
     },
+    {
+      title: "Business Templates",
+      href: "/docs/business-templates",
+    },
   ],
   sidebarNav: [
     {
@@ -95,6 +99,12 @@ export const docsConfig: DocsConfig = {
         {
           title: "Blocks",
           href: "/docs/blocks",
+          items: [],
+          label: "New",
+        },
+        {
+          title: "Business Templates",
+          href: "/docs/business-templates",
           items: [],
           label: "New",
         },

@@ -1,0 +1,64 @@
+import { AppSidebar } from "@/registry/default/blocks/corporate-dashboard-01/components/app-sidebar"
+import { TeamAnalytics } from "@/registry/default/blocks/corporate-dashboard-01/components/team-analytics"
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/registry/default/ui/breadcrumb"
+import { Separator } from "@/registry/default/ui/separator"
+import {
+  SidebarInset,
+  SidebarProvider,
+  SidebarTrigger,
+} from "@/registry/default/ui/sidebar"
+
+export default function Page() {
+  return (
+    <SidebarProvider>
+      <AppSidebar />
+      <SidebarInset>
+        <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4">
+          <SidebarTrigger className="-ml-1" />
+          <Separator orientation="vertical" className="mr-2 h-4" />
+          <Breadcrumb>
+            <BreadcrumbList>
+              <BreadcrumbItem className="hidden md:block">
+                <BreadcrumbLink href="#">
+                  Executive Dashboard
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator className="hidden md:block" />
+              <BreadcrumbItem>
+                <BreadcrumbPage>Team Analytics</BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
+        </header>
+        <div className="flex flex-1 flex-col gap-4 p-4">
+          <div className="grid gap-4 md:grid-cols-4">
+            <div className="rounded-xl bg-muted/50 p-4">
+              <h3 className="font-semibold mb-1">Employees</h3>
+              <p className="text-2xl font-bold">1,234</p>
+            </div>
+            <div className="rounded-xl bg-muted/50 p-4">
+              <h3 className="font-semibold mb-1">Departments</h3>
+              <p className="text-2xl font-bold">24</p>
+            </div>
+            <div className="rounded-xl bg-muted/50 p-4">
+              <h3 className="font-semibold mb-1">Active Projects</h3>
+              <p className="text-2xl font-bold">87</p>
+            </div>
+            <div className="rounded-xl bg-muted/50 p-4">
+              <h3 className="font-semibold mb-1">Quarterly Revenue</h3>
+              <p className="text-2xl font-bold">$12.4M</p>
+            </div>
+          </div>
+          <TeamAnalytics />
+        </div>
+      </SidebarInset>
+    </SidebarProvider>
+  )
+}

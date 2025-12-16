@@ -617,4 +617,114 @@ export const blocks: Registry["items"] = [
     ],
     categories: ["authentication", "login"],
   },
+  {
+    name: "startup-dashboard-01",
+    description: "A startup dashboard with metrics and growth tracking.",
+    type: "registry:block",
+    registryDependencies: ["sidebar", "breadcrumb", "separator", "card"],
+    files: [
+      {
+        path: "blocks/startup-dashboard-01/page.tsx",
+        type: "registry:page",
+        target: "app/dashboard/page.tsx",
+      },
+      {
+        path: "blocks/startup-dashboard-01/components/app-sidebar.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/startup-dashboard-01/components/metrics-cards.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["startup", "dashboard"],
+  },
+  {
+    name: "small-business-01",
+    description: "A small business management dashboard with inventory tracking.",
+    type: "registry:block",
+    registryDependencies: ["sidebar", "breadcrumb", "separator", "table", "badge"],
+    files: [
+      {
+        path: "blocks/small-business-01/page.tsx",
+        type: "registry:page",
+        target: "app/dashboard/page.tsx",
+      },
+      {
+        path: "blocks/small-business-01/components/app-sidebar.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/small-business-01/components/inventory-table.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["small-business", "dashboard"],
+  },
+  {
+    name: "corporate-dashboard-01",
+    description: "A corporate dashboard with team analytics and department management.",
+    type: "registry:block",
+    registryDependencies: ["sidebar", "breadcrumb", "separator", "card", "progress"],
+    files: [
+      {
+        path: "blocks/corporate-dashboard-01/page.tsx",
+        type: "registry:page",
+        target: "app/dashboard/page.tsx",
+      },
+      {
+        path: "blocks/corporate-dashboard-01/components/app-sidebar.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/corporate-dashboard-01/components/team-analytics.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["corporation", "dashboard"],
+  },
+  {
+    name: "nonprofit-dashboard-01",
+    description: "A non-profit dashboard with campaign and donation tracking.",
+    type: "registry:block",
+    registryDependencies: ["sidebar", "breadcrumb", "separator", "card", "progress", "badge"],
+    files: [
+      {
+        path: "blocks/nonprofit-dashboard-01/page.tsx",
+        type: "registry:page",
+        target: "app/dashboard/page.tsx",
+      },
+      {
+        path: "blocks/nonprofit-dashboard-01/components/app-sidebar.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/nonprofit-dashboard-01/components/campaign-cards.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["non-profit", "dashboard"],
+  },
+  {
+    name: "freelancer-dashboard-01",
+    description: "A freelancer dashboard with project and time tracking.",
+    type: "registry:block",
+    registryDependencies: ["sidebar", "breadcrumb", "separator", "card", "progress", "badge"],
+    files: [
+      {
+        path: "blocks/freelancer-dashboard-01/page.tsx",
+        type: "registry:page",
+        target: "app/dashboard/page.tsx",
+      },
+      {
+        path: "blocks/freelancer-dashboard-01/components/app-sidebar.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/freelancer-dashboard-01/components/projects-list.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["self-employment", "dashboard"],
+  },
 ]
