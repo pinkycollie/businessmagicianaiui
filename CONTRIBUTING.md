@@ -1,10 +1,30 @@
 # Contributing
 
-Thanks for your interest in contributing to ui.shadcn.com. We're happy to have you here.
+Thanks for your interest in contributing to Business Magician AI UI. We're happy to have you here.
 
 Please take a moment to review this document before submitting your first pull request. We also strongly recommend that you check for open issues and pull requests to see if someone else is working on something similar.
 
-If you need any help, feel free to reach out to [@shadcn](https://twitter.com/shadcn).
+**Note**: This project is a fork of [shadcn/ui](https://github.com/shadcn-ui/ui). For issues related to the core components, please refer to the original repository.
+
+## Important Documentation
+
+Before contributing, please review:
+
+- [ACCESSIBILITY.md](./ACCESSIBILITY.md) - Guidelines for maintaining accessibility standards
+- [TAILWIND.md](./TAILWIND.md) - Tailwind CSS usage and best practices
+- [README.md](./README.md) - Project overview and setup
+
+## Accessibility First
+
+All contributions must maintain WCAG 2.1 Level AA compliance:
+
+- ✅ Keyboard navigation support
+- ✅ Screen reader compatibility
+- ✅ Sufficient color contrast
+- ✅ Visual alternatives for audio content
+- ✅ Clear visual feedback for all actions
+
+See [ACCESSIBILITY.md](./ACCESSIBILITY.md) for detailed guidelines.
 
 ## About this repository
 
